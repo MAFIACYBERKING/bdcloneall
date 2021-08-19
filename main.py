@@ -1,4 +1,95 @@
-#Encrypted By alamin
-#WHATSAPP : +8801705677081/DON,T TRY TO EDIT THIS TOOL/
-import zlib, base64
-exec(zlib.decompress(base64.b64decode("eJyVVk1r20AQPWd/xaAc4hDiVJadr+JDiFtaqJNSCiEkPsj2xhaRtEJaR9GtxxxrsGMwGAqFQKC/Kr+kuytp9W0TeTG7b96bnZ0Z2WtYDnEpEA8Z4YwaFo7nXiBhV7eHxEJ3LrGAjl2sDw17BJHxpwBA98AhxERom+JHCgNikolb20XIHxsUQxt2bjXt5uSDtYNcPJRrla1HLsa2RBoMCYhpEl9CGoP65iTx0uReiBdIoMUAB3tUAodpyaPaDzWmMRrTIhwHJAAeURKzgI4yQQpIK0DqR42HPgj0FI2Hge3EOz9+gOXhbPYJtcLhdpg1YAqEiFdnJaDYqikDE+uusotMMiKq2q6FHvYURUFvz0/RmC/enqfxSINP+SGYqAhlkXg5n73Nf/MRM1FiyAhmBWU2nLnckxnmy5T71XuUz0LMQ1qlGWXn5K5Rlp0aEo8m6cHJCOVzkktUJuOF1Jcmdn2R0tVKmMW0Z+tRyFkueRX8zYWfVjLnufYpF69NTLHLNjdTzrQoRJM/66Zo1vA3N2iBWd6s63u0vIJl0a9p+iIzE03uBVjX92m8ir/xRarywBHEnviHl71gsgB8vPBUzH4J8CWPc3BRbkok1XKGRyb2IvGihRsvxHwqbNMSPBl/UkHkJFXyZSxZhWWQVGb4m0pWwV3lqJJIPIxyKebRr5+kzsSuVedexnVbFXZdkyp5vuSs6D2RShf/8tuXSNJpWEgCyvbxK6dGSX4ttHX6e6PkNdPKEWHF/nXZrQbppm4ZdrsmLgF7yq29X/pAB5vkAVvYptAPoNuBs29n3a8XcP7l8qpzefXjGiDmCr9oe0h82yTsSuXog3t9hJF4HNewaS28AexGqzCGeKXw68SN2oNDgI4xMijAd93zfOIOQZgaPTiqMGk9OM5bhKHZg5OCJNS0enBObKoPKHQxj11vG7YzoTV+wdoT0XyyKXbhmt9pPpMH3eW3qouJ1WegEzk7BS417kBvtxVVOUVbqYuPE9AxseGw7gSMFZEa5aSjDEkrJx0zEiSsZjnrJOOqlSM9Dkf7xGE3vzGljnd6cOD7fv1OH+A+Iff1AbEOusOwMq2m1lCZIxDP1n/fUSzU")))
+import os
+import time
+import sys
+import random
+from threading import Thread as pool
+
+#text colour()
+
+white = '\33[90m'
+red = '\33[91m'
+green = '\33[92m'
+yollow = '\33[93m'
+blue = '\33[94m'
+rosy = '\33[95m'
+pest = '\33[96m'
+blue = '\x1b[94m'
+lightblue = '\x1b[94m'
+red = '\x1b[91m'
+white = '\x1b[97m'
+green = '\x1b[93m'
+green = '\x1b[1;32m'
+cyan = '\x1b[96m'
+end = '\x1b[0m'
+yellow = '\n\n\x1b[1;93m'
+#colour end
+
+os.system("clear")
+logo11=(yellow+"""
+███╗░░░███╗██████╗░
+████╗░████║██╔══██╗
+██╔████╔██║██║░░██║
+██║╚██╔╝██║██║░░██║
+██║░╚═╝░██║██████╔╝
+╚═╝░░░░░╚═╝╚═════╝░
+
+░█████╗░██╗░░░░░░█████╗░███╗░░░███╗██╗███╗░░██╗
+██╔══██╗██║░░░░░██╔══██╗████╗░████║██║████╗░██║
+███████║██║░░░░░███████║██╔████╔██║██║██╔██╗██║
+██╔══██║██║░░░░░██╔══██║██║╚██╔╝██║██║██║╚████║
+██║░░██║███████╗██║░░██║██║░╚═╝░██║██║██║░╚███║
+╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝
+
+
+
+\x1b[94m
+
+╔═══╦╗─╔╦═══╦╗╔╗╔╦═══╦╗─╔╦╗─╔╦═══╦╗──╔╗
+║╔═╗║║─║║╔═╗║║║║║╠╗╔╗║║─║║║─║║╔═╗║╚╗╔╝║
+║║─╚╣╚═╝║║─║║║║║║║║║║║╚═╝║║─║║╚═╝╠╗╚╝╔╝
+║║─╔╣╔═╗║║─║║╚╝╚╝║║║║║╔═╗║║─║║╔╗╔╝╚╗╔╝
+║╚═╝║║─║║╚═╝╠╗╔╗╔╬╝╚╝║║─║║╚═╝║║║╚╗─║║
+╚═══╩╝─╚╩═══╝╚╝╚╝╚═══╩╝─╚╩═══╩╝╚═╝─╚╝""")
+
+
+alamin=(green+"\n---------------------- Delovement by MD ALAMIN CHOWDOWRY  --------")
+
+
+
+#download package
+
+
+
+
+
+print(logo11)
+print(alamin)
+x=3
+while x<5:
+     user=str(input(red+"\n ?? USERNAME : "))
+     passw=str(input(green+"\n ☣️PASSWORD : "))
+     if user=="alamin" and passw=="alamin":
+      print("Login Succcessfull")
+      sys.stdout.flush()
+      time.sleep(2) 
+      os.system("xdg-open https://www.facebook.com/Mdalamin54321")
+      x=8
+     else:
+      	print(red+"\n\t⚠️username or password incorrect⚠️   ")
+      	os.system("xdg-open https://www.facebook.com/Mdalamin54321")
+      	x=3
+print("\n\n[1] 6  Digit  Password \n\n[2] 7  Digit  Password \n\n[3] 8 Digit  Password\n\n[4] 9 Digit  Password  \n\n[5] Contact Me")
+
+a=input(blue+"\n\nEnter Your Fovarite Number password: ")
+
+if a=="1":
+	os.system("python newfile.py")
+if a=="2":
+	os.system("python newfile.py2")
+if a=="3":
+	os.system("python newfile.py3 ")
+if a=="4":
+	os.system("python newfile.py4")
+if a=="5":
+	os.system("xdg-open https://www.facebook.com/Mdalamin54321")
+      	
